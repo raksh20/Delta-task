@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var questions=[{
 question:"1) When did we go to the movie we came out halfway?",
 option1:"December 1, 2019",
