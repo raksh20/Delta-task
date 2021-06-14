@@ -1,43 +1,36 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Forty Shades of Gray</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<div id="head">
-			<div class="scores-container">
-				<div class="time">TIME 
-					<div id="timerLabel">00.00</div>
-				</div>
-				<div class="best">BEST
-					<div id="besttime">00.00</div>
-				</div>
-			</div>
+<head>
+	<title>Birthdayayyy</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div id="quiz-container" class="slides">
+		<h1 id="heading">HAPPY BIRTHDAY MEGA</h1>
+		<p id="desc"> This quiz has 10 questions. Score more than 6 for a SURPRISE!!!<br>Have fun!</p>
+		<div id="quiz" class="hide" >
+		<p id="ques">
+		</p>
+		<div class="options">
+			<button type="button" id="1" class="1">ans1</button>
+			<button type="button" id="2" class="2">ans2</button>
+			<button type="button" id="3" class="3">ans3</button>
+			<button type="button" id="4" class="4">ans4</button>
+
+		</div>
+
+	</div>
+	<p id=ans class="hide"></p>
+	<p id="result" class="hide"></p>
+	<div id="buttons">
+		<button type="button" id="start">START</button>
+		<button type="button" id="prev" class="hide" onclick="clickPrev(); prevQuestion();">PREVIOUS</button>
+		<button type="button" id="next" class="hide">NEXT</button>
+		<button type="button" id="submit" class="hide" onclick="clickSubmit(); ">SUBMIT</button>
+	</div>
 	
 
-		</div>
-		<div class="about-game">
-			<p id="info">Click the numbers as quickly as you can!</p>
-			<div id="buttons">
-			<button class="mybutton" id="startBtn" onclick="start(); makegrid();">START</button>
-			<button class="mybutton" onclick="reset(); cleargrid(); goscore();">Click here to Restart</button>
-			</div>
-		</div>
-		<div id="grid">
-			
-
-		</div>
-		<div id="message">
-		   <p id="score"></p>
-		</div>
-		
-
-		
-
-
-		<script src="script.js"></script>
-
-
-	</body>
+	<script src="script.js"></script>
+</body>
 </html>
